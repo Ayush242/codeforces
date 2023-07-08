@@ -30,3 +30,19 @@ In the first example, they have 2,4,5,7
 In the second example, they have 1,9,11,59
  chocolates each. So Dev steals 1+9+11+59=80
  chocolates in total.
+# SOLUTION
+```c++
+#include<iostream>
+#include<numeric>
+using namespace std;
+ 
+int main(){
+    int a[4];
+    for(int i=0;i<4;i++){
+        cin>>a[i];
+    }
+    int sum =0;
+    cout<< accumulate(a,a+4,sum);
+   
+}
+```
