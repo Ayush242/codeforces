@@ -12,6 +12,13 @@
 
 // Output
 // Print YES, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and NO in the opposite case.
+Examples
+input 
+8
+output 
+YES
+Note
+For example, the boys can divide the watermelon into two parts of 2 and 6 kilos respectively (another variant — two parts of 4 and 4 kilos).
 
 // My Solution
 #include<bits/stdc++.h>
@@ -28,3 +35,21 @@ int main(){
     }
 }
 
+// EDITORIAL SOLUTION
+#include <iostream>
+using namespace std;
+ 
+int main(){
+    
+    int w;
+    cin >> w;
+    
+    if (w % 2 == 0 && w > 2){
+        cout<<"YES"<<endl;
+    }
+    
+    else{
+        cout<<"NO"<<endl;
+    }
+    return 0;
+}
