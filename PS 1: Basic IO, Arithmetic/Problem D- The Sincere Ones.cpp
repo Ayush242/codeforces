@@ -34,3 +34,17 @@ int main(){
     cin>>a>>b;
     cout<<fixed<<setprecision(6)<<a/b;
 }
+
+// // EDITORIAL SOLUTION
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    float a,b,ans;
+    cin>>a>>b;
+    ans=a/b;
+    cout <<fixed<<setprecision(6) << ans <<endl;
+return 0;
+}
+
+}
