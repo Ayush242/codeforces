@@ -47,3 +47,15 @@ int main(){
    
 }
 
+// EDITORIAL SOLUTION
+#include<iostream>
+using namespace std;
+int main(){
+    
+    int a,b,c,d,ans;
+    cin>>a>>b>>c>>d;
+    ans=a+b+c+d;
+    cout<<ans<<endl;
+    
+return 0;
+}
