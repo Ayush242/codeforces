@@ -30,3 +30,17 @@ int main(){
     cin>>a>>b;
     cout<<(a*b)-a;
 }
+
+// EDITORIAL SOLUTION
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main(){
+    
+int a,b,ans;
+cin>>a>>b;
+ans=a*b-a;
+cout<<ans<<endl;
+ 
+return 0;   
+}
