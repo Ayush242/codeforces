@@ -45,4 +45,25 @@
 // 0
 
 
-
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long 
+ 
+int main(){https://codeforces.com/group/7mxf4oQFY7/contest/452362/customtest
+    ll t;
+    cin>>t;
+    while(t--){
+        ll a,b,count=0;
+        cin>>a>>b;
+        if(a<b){
+            cout<<b-a<<endl;
+        }
+        else if(a%b==0){
+            cout<<0<<endl;
+        }
+        else{
+            int rem = a/b;
+            cout<<b*(rem+1)-a<<endl;
+        }
+    }
+}
