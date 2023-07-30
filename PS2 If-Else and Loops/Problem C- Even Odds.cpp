@@ -24,3 +24,23 @@ output
 6
 Note
 In the first sample Volodya's sequence will look like this: {1, 3, 5, 7, 9, 2, 4, 6, 8, 10}. The third place in the sequence is therefore occupied by the number 5.
+
+
+// Editorial Solution
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    long long n, k;
+    cin >> n >> k;
+    if (k <= (n + 1) / 2)
+    {
+        cout << k * 2 - 1 << endl;
+    }
+    else
+    {
+        cout << (k - (n + 1) / 2) * 2 << endl;
+    }
+    return 0;
+}
