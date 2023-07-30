@@ -45,3 +45,19 @@ Output
 For each test case, print the answer — the number of ways to distribute exactly n
  candies between two sisters in a way described in the problem statement. If there is no way to satisfy all the conditions, print 0
 .
+Example
+input 
+6
+7
+1
+2
+3
+2000000000
+763243547
+output 
+3
+0
+0
+1
+999999999
+381621773
