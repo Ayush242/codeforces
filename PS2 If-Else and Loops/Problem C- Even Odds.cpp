@@ -26,6 +26,31 @@ Note
 In the first sample Volodya's sequence will look like this: {1, 3, 5, 7, 9, 2, 4, 6, 8, 10}. The third place in the sequence is therefore occupied by the number 5.
 
 
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long 
+ 
+int main(){https://codeforces.com/group/7mxf4oQFY7/contest/452362/customtest
+    ll n,k;
+    cin>>n>>k;
+    ll size;
+    if(n%2==0){
+        size = n/2;
+    }
+    else{
+        size = n/2 + 1; 
+    }
+    if(k<=size){
+        cout<<2*k -1;
+    }
+    else{
+        cout<<2*(k-size);
+    }
+}
+
+
+    
 // Editorial Solution
 #include <iostream>
 using namespace std;
