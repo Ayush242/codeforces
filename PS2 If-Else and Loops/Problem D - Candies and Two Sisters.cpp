@@ -61,3 +61,16 @@ output
 1
 999999999
 381621773
+ Note
+For the test case of the example, the 3
+ possible ways to distribute candies are:
+
+a=6
+, b=1
+;
+a=5
+, b=2
+;
+a=4
+, b=3
+.
