@@ -74,3 +74,24 @@ a=5
 a=4
 , b=3
 .
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long 
+ 
+int main(){https://codeforces.com/group/7mxf4oQFY7/contest/452362/customtest
+    ll n,t;
+    cin>>t;
+    while(t--){
+        cin>>n;
+        if(n>2){
+            cout<<n-n/2-1;
+        }
+        else{
+            cout<<0;
+        }
+        cout<<"\n";
+    }
+}
